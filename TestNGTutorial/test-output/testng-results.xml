@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80" started-at="2021-02-08T16:52:36 CST" finished-at="2021-02-08T16:52:36 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="80" started-at="2021-02-08T16:52:36 CST" finished-at="2021-02-08T16:52:36 CST">
+      <class name="com.zsquared.testng.Day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:com.zsquared.testng.Day1@4b4523f8]" name="Demo" duration-ms="13" started-at="2021-02-08T16:52:36 CST" finished-at="2021-02-08T16:52:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:com.zsquared.testng.Day1@4b4523f8]" name="Demo2" duration-ms="7" started-at="2021-02-08T16:52:36 CST" finished-at="2021-02-08T16:52:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- com.zsquared.testng.Day1 -->
+      <class name="com.zsquared.testng.Day2">
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:com.zsquared.testng.Day2@731a74c]" name="Demo3" duration-ms="2" started-at="2021-02-08T16:52:36 CST" finished-at="2021-02-08T16:52:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- com.zsquared.testng.Day2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
