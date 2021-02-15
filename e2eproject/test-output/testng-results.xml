@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87225" started-at="2021-02-15T09:02:52 CST" finished-at="2021-02-15T09:04:19 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87225" started-at="2021-02-15T09:02:52 CST" finished-at="2021-02-15T09:04:19 CST">
+      <class name="zsquared.validateNavbarLandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:zsquared.validateNavbarLandingPage@2d6eabae]" name="initialize" is-config="true" duration-ms="10311" started-at="2021-02-15T09:02:54 CST" finished-at="2021-02-15T09:03:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:zsquared.validateNavbarLandingPage@2d6eabae]" name="basePageNavigation" duration-ms="409" started-at="2021-02-15T09:04:16 CST" finished-at="2021-02-15T09:04:17 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:zsquared.validateNavbarLandingPage@2d6eabae]" name="teatDown" is-config="true" duration-ms="213" started-at="2021-02-15T09:04:18 CST" finished-at="2021-02-15T09:04:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- zsquared.validateNavbarLandingPage -->
+      <class name="zsquared.validateTitleLandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:zsquared.validateTitleLandingPage@23faf8f2]" name="initialize" is-config="true" duration-ms="21846" started-at="2021-02-15T09:03:04 CST" finished-at="2021-02-15T09:03:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:zsquared.validateTitleLandingPage@23faf8f2]" name="basePageNavigation" duration-ms="171" started-at="2021-02-15T09:04:16 CST" finished-at="2021-02-15T09:04:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:zsquared.validateTitleLandingPage@23faf8f2]" name="teatDown" is-config="true" duration-ms="943" started-at="2021-02-15T09:04:18 CST" finished-at="2021-02-15T09:04:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- zsquared.validateTitleLandingPage -->
+      <class name="zsquared.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:zsquared.HomePage@d44fc21]" name="initialize" is-config="true" duration-ms="2425" started-at="2021-02-15T09:02:52 CST" finished-at="2021-02-15T09:02:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zsquared.HomePage@d44fc21]" name="basePageNavigation" duration-ms="25562" started-at="2021-02-15T09:03:26 CST" data-provider="getData" finished-at="2021-02-15T09:03:52 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zsquared.HomePage@d44fc21]" name="basePageNavigation" duration-ms="23885" started-at="2021-02-15T09:03:52 CST" data-provider="getData" finished-at="2021-02-15T09:04:16 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@def.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:zsquared.HomePage@d44fc21]" name="teatDown" is-config="true" duration-ms="1250" started-at="2021-02-15T09:04:17 CST" finished-at="2021-02-15T09:04:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- zsquared.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

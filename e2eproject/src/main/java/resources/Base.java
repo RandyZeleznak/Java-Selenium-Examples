@@ -1,4 +1,4 @@
-package zsquared;
+package resources;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -17,13 +17,10 @@ public class Base {
 	public WebDriver initializeDriver() throws IOException{
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\Randy\\udemy\\JavaSelenium\\e2eproject\\src\\main\\java\\zsquared\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Randy\\udemy\\JavaSelenium\\e2eproject\\src\\main\\java\\resources\\data.properties");
 		
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		String urlTag = prop.getProperty("url");
-		System.out.println("Base1 urlTag = " +urlTag); 
-		
 		
 		if(browserName.contentEquals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
